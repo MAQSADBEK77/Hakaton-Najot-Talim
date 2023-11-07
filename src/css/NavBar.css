@@ -3,6 +3,7 @@
   padding: 10px 0;
 }
 .navbar .container {
+  text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +42,6 @@
 .navbar-right a {
   padding: 3px 6px;
   border-radius: 8px;
-  transition: all 0.3s;
 }
 .navbar-right a:hover {
   background-color: #fff;

@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Xizmatlar from "./pages/Xizmatlar";
 import Blog from "./pages/Blog";
 import BizHaqimizda from "./pages/BizHaqimizda";
+import Chat from "./pages/chat";
 function App() {
   const routes = createBrowserRouter(
     createRoutesFromElements(
@@ -18,6 +19,7 @@ function App() {
         <Route path="xizmatlar" element={<Xizmatlar />} />
         <Route path="blog" element={<Blog />} />{" "}
         <Route path="bizhaqimizda" element={<BizHaqimizda />} />
+        <Route path="chat" element={<Chat />} />
       </Route>
     )
   );

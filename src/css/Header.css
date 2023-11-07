@@ -1,0 +1,33 @@
+.header {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.header .container {
+  max-width: 1330px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--btn-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px; /* 137.5% */
+}
+.logo:hover {
+  transform: scale(106%);
+}
+.navbar-center a,
+.navbar-center summary {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+}
+.navbar-end svg {
+  fill: var(--btn-color) !important;
+}
+.navbar-end label,
+.navbar-end ul li a {
+  color: var(--btn-color);
+}

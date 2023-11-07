@@ -1,4 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+:root {
+  --bg-color: #ffffff;
+  --btn-color: #0fc36d;
+  --btn-shadow: 0px 8px 32px 0px rgba(15, 195, 109, 0.32);
+  --text-color: #332942;
+  --text-color2: #726a7e;
+  --hero-bg: #f6f7ed;
+}
+
 body {
   font-style: normal;
 }
@@ -135,8 +147,11 @@ img {
 }
 
 .container {
-  max-width: calc(1280px - 40px);
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
   font-family: "Inter", sans-serif;
+}
+a {
+  transition: all 0.4s;
 }
