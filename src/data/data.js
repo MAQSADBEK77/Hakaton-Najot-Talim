@@ -1,58 +1,59 @@
+import cart1 from "../../public/cart1.png";
 export const carts = [
   {
-    img: "public/cart1.png",
+    img: { cart1 },
     title: "Tozalash xizmatlari",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 1,
   },
   {
-    img: "public/cart2.png",
+    img: { cart1 },
     title: "Tozalash xizmatlari",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
-    id: 1,
+    id: 2,
   },
   {
-    img: "public/cart3.png",
+    img: { cart1 },
     title: "Tozalash xizmatlari",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
-    id: 1,
+    id: 3,
   },
   {
-    img: "public/cart4.png",
+    img: { cart1 },
     title: "Tozalash xizmatlari",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
-    id: 1,
+    id: 4,
   },
   {
-    img: "public/cart5.png",
+    img: { cart1 },
     title: "Tozalash xizmatlari",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
-    id: 1,
+    id: 5,
   },
   {
-    img: "public/cart6.png",
+    img: { cart1 },
     title: "Tozalash xizmatlari",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
-    id: 1,
+    id: 6,
   },
   {
-    img: "public/cart7.png",
+    img: { cart1 },
     title: "Tozalash xizmatlari",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
-    id: 1,
+    id: 7,
   },
   {
-    img: "public/cart8.png",
+    img: { cart1 },
     title: "Tozalash xizmatlari",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
-    id: 1,
+    id: 8,
   },
 ];
