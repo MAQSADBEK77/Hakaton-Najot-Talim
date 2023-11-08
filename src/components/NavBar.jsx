@@ -1,11 +1,12 @@
 import "../css/NavBar.css";
+import Logo from "./public/icons/callicon.svg";
 function NavBar() {
   return (
     <div className="navbar">
       <div className="container">
         <div className="navbar-left">
           <a href="tel:7757">
-            <img src="./public/icons/callicon.svg" alt="This is call icon" />
+            <img src={Logo} alt="This is call icon" />
             77 57
           </a>
           <div className="dash"></div>Xizmatlarimiz haqida bepul ma’lumot olish
