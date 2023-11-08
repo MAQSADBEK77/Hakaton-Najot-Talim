@@ -80,3 +80,32 @@
   max-width: 480px;
   margin: 0 auto;
 }
+.mini-carts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+  margin-bottom: 120px;
+}
+.mini-cart {
+  max-width: 411px;
+  text-align: center;
+}
+.mini-cart img {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.mini-cart h3 {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px; /* 144.444% */
+  margin-bottom: 12px;
+}
+.mini-cart p {
+  color: var(--text-color2);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
