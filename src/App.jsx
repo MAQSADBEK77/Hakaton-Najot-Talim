@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 import Xizmatlar from "./pages/Xizmatlar";
 import Blog from "./pages/Blog";
 import BizHaqimizda from "./pages/BizHaqimizda";
-import Chat from "./pages/chat";
+import Chat from "./pages/Chat";
 function App() {
   const routes = createBrowserRouter(
     createRoutesFromElements(
