@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { BsSunFill, BsMoonFill } from "react-icons/bs";
 import GreenBtn from "./GreenBtn";
+import logo from "../../public/icons/logo.svg";
 import "../css/Header.css";
 function Header() {
   const [theme, setTheme] = useState(false);
@@ -13,7 +14,7 @@ function Header() {
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <Link to="/" className="logo">
-              <img src="./public/icons/logo.svg" alt="This is logotip" />
+              <img src={logo} alt="This is logotip" />
               Toza Makon
             </Link>
           </div>

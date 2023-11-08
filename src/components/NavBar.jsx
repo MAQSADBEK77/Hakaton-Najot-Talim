@@ -1,5 +1,5 @@
 import "../css/NavBar.css";
-import Logo from "./public/icons/callicon.svg";
+import Logo from "../../public/icons/callicon.svg";
 function NavBar() {
   return (
     <div className="navbar">
