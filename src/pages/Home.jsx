@@ -28,7 +28,6 @@ function Home() {
       <Homiylar />
       <footer>
         <SavollaringizBormi />
-        
       </footer>
     </>
   );

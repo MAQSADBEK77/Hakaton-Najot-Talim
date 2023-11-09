@@ -1,0 +1,18 @@
+@media screen and (max-width: 1100px) {
+  .hero-right img {
+    transform: translate(0);
+  }
+  .ilova-right img {
+    display: none;
+  }
+  .header .dropdown {
+    display: none;
+  }
+  .header .dropdown-menu {
+    display: block;
+  }
+
+  .header .menu-horizontal {
+    display: none;
+  }
+}

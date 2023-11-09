@@ -1,13 +1,18 @@
-.greenBtn {
+.header .dropdown-menu {
+  display: none;
+}
+.greenFather {
+  border-radius: 12px;
+  outline: 1px solid var(--btn-color);
+  box-shadow: var(--btn-shadow);
+  background: var(--btn-color);
   padding: 16px 20px;
+}
+.greenBtn {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   line-height: 100%; /* 16px */
-  border-radius: 12px;
-  background: var(--btn-color);
-  box-shadow: var(--btn-shadow);
-  outline: 1px solid var(--btn-color);
 }
 .borderGreenBtn {
   padding: 16px 20px;
@@ -29,8 +34,8 @@
 }
 .chat-btn {
   position: fixed;
-  bottom: 30px;
-  right: 55px;
+  bottom: 50px;
+  right: 50px;
   border-radius: 100px;
   background: var(--btn-color);
   box-shadow: var(--btn-shadow);
@@ -154,10 +159,20 @@
 .hero2 {
   border-radius: 32px;
 }
+.ilova {
+  width: 80%;
+}
+.ilova:hover .ilova-right img {
+  transform: scale(175%);
+}
 .ilova-right img {
+  transition: all 0.8s;
   width: 183px;
   height: 375px;
-  transform: scale(150%) translateX(16%);
+  transform: scale(150%);
+}
+.ilova h1 {
+  font-size: 40px !important;
 }
 .ilova .hero-links a {
   background: var(--play-market-bg);
