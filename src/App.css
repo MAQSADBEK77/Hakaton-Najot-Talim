@@ -221,3 +221,50 @@
   background: var(--hero-bg);
   object-fit: cover;
 }
+footer {
+  background: var(--hero-bg);
+  padding-top: 79px !important;
+  padding-bottom: 105px !important;
+}
+.savollaringiz-bormi {
+  padding: 48px 0 !important;
+  border-radius: 32px;
+  background: var(--bg-color);
+  margin-bottom: 56px;
+}
+.savollaringiz-bormi p {
+  max-width: 590px;
+}
+.savollaringiz-bormi button {
+  margin: 48px auto 0;
+
+  display: flex;
+  justify-content: center;
+}
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 12px;
+  margin-top: 56px;
+}
+.logo-footer img {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+}
+.logo-footer h1 {
+  color: var(--btn-color);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 44px; /* 137.5% */
+}
+
+.toza-makon p {
+  color: var(--text-color2);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}

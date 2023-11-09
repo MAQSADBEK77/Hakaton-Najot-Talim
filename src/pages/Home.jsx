@@ -6,6 +6,7 @@ import { carts } from "../data/data";
 import IlovaComponent from "../components/IlovaComponent";
 import MijozlarNimaDeydi from "../components/MijozlarNimaDeydi";
 import Homiylar from "../components/Homiylar";
+import SavollaringizBormi from "../components/SavollaringizBormi";
 
 function Home() {
   return (
@@ -25,6 +26,10 @@ function Home() {
       <IlovaComponent />
       <MijozlarNimaDeydi />
       <Homiylar />
+      <footer>
+        <SavollaringizBormi />
+        
+      </footer>
     </>
   );
 }
