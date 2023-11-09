@@ -9,6 +9,7 @@
   --text-color: #332942;
   --text-color2: #726a7e;
   --hero-bg: #f6f7ed;
+  --play-market-bg: rgba(0, 0, 0, 1);
 }
 
 body {
@@ -147,9 +148,9 @@ img {
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1320px !important;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 20px ;
   font-family: "Inter", sans-serif;
 }
 a {

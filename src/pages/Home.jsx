@@ -3,10 +3,13 @@ import HeroService from "../components/HeroService";
 import NimaUchun from "../components/NimaUchun";
 import TaklifCarousel from "../components/TaklifCarousel";
 import { carts } from "../data/data";
+import IlovaComponent from "../components/IlovaComponent";
+import MijozlarNimaDeydi from "../components/MijozlarNimaDeydi";
+import Homiylar from "../components/Homiylar";
 
 function Home() {
   return (
-    <div>
+    <>
       <HeroService />
       <NimaUchun
         topSpan="Nima uchun"
@@ -19,7 +22,10 @@ function Home() {
         span="Biz siz uchun"
         param="Biz sizning uyingiz, ofisingiz tozaligi va farovonligi uchun quyidagi xizmatlarni taklif qilamiz"
       />
-    </div>
+      <IlovaComponent />
+      <MijozlarNimaDeydi />
+      <Homiylar />
+    </>
   );
 }
 

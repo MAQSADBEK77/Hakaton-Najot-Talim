@@ -111,8 +111,9 @@
 }
 .carousel {
   margin-top: 80px !important;
-  margin-bottom: 120px !important;
+  margin-bottom: 168px !important;
   gap: 20px;
+  max-width: 975px !important;
 }
 .carousel-item {
   display: flex;
@@ -123,12 +124,13 @@
   padding: 24px;
   background: var(--hero-bg);
   border-radius: 32px;
-  max-width: 305px;
+  max-width: 257px;
 }
 .carousel-item img {
   width: 257px;
   height: 166px;
   border-radius: 16px;
+  margin: 0 auto;
 }
 .carousel-item h4 {
   color: var(--text-color);
@@ -146,6 +148,76 @@
 }
 .carousel-item a {
   display: block;
-  width: 85%;
+  width: 100%;
   margin-top: 4px;
+}
+.hero2 {
+  border-radius: 32px;
+}
+.ilova-right img {
+  width: 183px;
+  height: 375px;
+  transform: scale(150%) translateX(16%);
+}
+.ilova .hero-links a {
+  background: var(--play-market-bg);
+  padding: 7.5px 11.3px;
+  border-radius: 5px;
+}
+.ilova .hero-links a:hover {
+  transform: scale(105%);
+}
+.mijozlar-nima-deydi {
+  margin-top: 168px !important;
+}
+.mijozlar-nima-deydi .carousel {
+  gap: 20px;
+  width: 100%;
+}
+.raiting {
+  max-width: 620px;
+  background-color: var(--bg-color);
+}
+.raiting-top img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+.raiting-top p {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+  margin-bottom: 24px;
+}
+.raiting-bottom img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.raiting-bottom p {
+  color: var(--text-color2);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  text-align: center;
+  margin-bottom: 8px;
+}
+.raiting-bottom .rating {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.raiting-bottom .rating input {
+  background: rgba(255, 200, 80, 1);
+}
+.homiylar .carousel-item img {
+  width: 197px;
+  height: 100px;
+  border-radius: 16px;
+  background: var(--hero-bg);
+  object-fit: cover;
 }

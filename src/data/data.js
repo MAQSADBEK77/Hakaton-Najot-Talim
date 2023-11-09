@@ -57,3 +57,41 @@ export const carts = [
     id: 8,
   },
 ];
+export const xomiylar = [
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+  {
+    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    href: "#",
+  },
+];

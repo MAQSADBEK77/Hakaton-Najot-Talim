@@ -1,5 +1,4 @@
 import "../css/HeroService.css";
-import { Link } from "react-router-dom";
 import slide1 from "../../public/slide1.png";
 import GreenBtn from "./GreenBtn";
 import BorderGreenBtn from "./BorderGreenBtn";
