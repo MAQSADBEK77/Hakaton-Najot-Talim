@@ -2,7 +2,7 @@ import "../css/HeroService.css";
 import slide1 from "../../public/slide1.png";
 import GreenBtn from "./GreenBtn";
 import BorderGreenBtn from "./BorderGreenBtn";
-function HeroService() {
+function HeroService({ title1, title2, to1, to2 }) {
   return (
     <div className="hero">
       <div className="container">
@@ -14,8 +14,8 @@ function HeroService() {
             ko'lamli xizmatlarni taqdim etamiz.
           </p>
           <div className="hero-links">
-            <GreenBtn title="Bog’lanish" to="/xizmatlar/tozalashXizmati" />
-            <BorderGreenBtn title="Bizning xizmatlar" to="/xizmatlar" />
+            <GreenBtn title={title1} to={to1} />
+            <BorderGreenBtn title={title2} to={to2} />
           </div>
         </div>
         <div className="hero-right">

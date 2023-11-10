@@ -6,12 +6,16 @@ import { carts } from "../data/data";
 import IlovaComponent from "../components/IlovaComponent";
 import MijozlarNimaDeydi from "../components/MijozlarNimaDeydi";
 import Homiylar from "../components/Homiylar";
-import SavollaringizBormi from "../components/SavollaringizBormi";
 
 function Home() {
   return (
     <>
-      <HeroService />
+      <HeroService
+        title1="Bog’lanish"
+        to1="/chat"
+        title2="Bizning xizmatlar"
+        to2="/xizmatlar"
+      />
       <NimaUchun
         topSpan="Nima uchun"
         topTitle="Bizni tanlashingiz shart"
@@ -26,9 +30,6 @@ function Home() {
       <IlovaComponent />
       <MijozlarNimaDeydi />
       <Homiylar />
-      <footer>
-        <SavollaringizBormi />
-      </footer>
     </>
   );
 }
