@@ -1,4 +1,6 @@
 .hero {
+  transition: all 0.4s;
+
   background: var(--hero-bg);
   margin-bottom: 120px;
 }

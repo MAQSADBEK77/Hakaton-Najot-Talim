@@ -1,17 +1,38 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BsSunFill, BsMoonFill } from "react-icons/bs";
 import GreenBtn from "./GreenBtn";
 import logo from "../../public/icons/logo.svg";
 import "../css/Header.css";
 function Header() {
-  const [theme, setTheme] = useState(false);
-  const handleTheme = () => {};
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") != null
+      ? localStorage.getItem("theme")
+      : false
+  );
+  useEffect(() => {
+    if (theme == "true") {
+      document.body.classList = "dark";
+    } else {
+      document.body.classList = "light";
+    }
+  }, []);
+  const handleTheme = () => {
+    if (theme) {
+      document.body.classList = "light";
+      localStorage.setItem("theme", false);
+      setTheme(false);
+    } else {
+      document.body.classList = "dark";
+      localStorage.setItem("theme", true);
+      setTheme(true);
+    }
+  };
 
   return (
     <div className="header">
       <div className="container">
-        <div className="navbar bg-base-100">
+        <div className="navbar">
           <div className="navbar-start">
             <Link to="/" className="logo">
               <img src={logo} alt="This is logotip" />

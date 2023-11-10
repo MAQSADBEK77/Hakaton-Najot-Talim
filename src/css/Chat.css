@@ -1,0 +1,30 @@
+.chatt {
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.chat-bubble {
+    background-color: var(--text-color);
+}
+.form-chat {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 9;
+}
+.form-chat input {
+  border: 1px solid var(--text-color2);
+}
+.form-chat button {
+  position: absolute;
+  right: 20px;
+  bottom: 50%;
+  transform: translateY(50%);
+  transition: all 0.5s;
+  border-radius: 12px;
+  background: #0fc36d;
+  padding: 6px;
+}
+.form-chat button:hover {
+  transform: scale(110%) translateY(45%);
+}

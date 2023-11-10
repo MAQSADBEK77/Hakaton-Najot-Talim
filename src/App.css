@@ -59,6 +59,9 @@
 .title-component {
   display: flex;
   flex-direction: column;
+  transition: all 0.4s;
+
+  background-color: var(--bg-color);
 }
 .title-component span {
   color: var(--btn-color);
@@ -86,6 +89,10 @@
   margin: 0 auto;
 }
 .mini-carts {
+  transition: all 0.4s;
+
+  background-color: var(--bg-color);
+
   display: flex;
   justify-content: space-between;
   margin-top: 56px;
@@ -115,12 +122,18 @@
   line-height: 22px; /* 157.143% */
 }
 .carousel {
+  transition: all 0.4s;
+
+  background-color: var(--bg-color);
+
   margin-top: 80px !important;
   margin-bottom: 168px !important;
   gap: 20px;
   max-width: 975px !important;
 }
 .carousel-item {
+  transition: all 0.4s;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -157,6 +170,8 @@
   margin-top: 4px;
 }
 .hero2 {
+  transition: all 0.4s;
+  background-color: var(--bg-color);
   border-radius: 32px;
 }
 .ilova {
@@ -183,6 +198,10 @@
   transform: scale(105%);
 }
 .mijozlar-nima-deydi {
+  transition: all 0.4s;
+
+  background-color: var(--bg-color);
+
   margin-top: 168px !important;
 }
 .mijozlar-nima-deydi .carousel {
@@ -190,8 +209,11 @@
   width: 100%;
 }
 .raiting {
-  max-width: 620px;
+  transition: all 0.4s;
+
   background-color: var(--bg-color);
+
+  max-width: 620px;
 }
 .raiting-top img {
   width: 32px;
@@ -237,14 +259,15 @@
   object-fit: cover;
 }
 footer {
+  background-color: var(--bg-color);
   background: var(--hero-bg);
   padding-top: 79px !important;
   padding-bottom: 105px !important;
 }
 .savollaringiz-bormi {
+  background-color: var(--bg-color);
   padding: 48px 0 !important;
   border-radius: 32px;
-  background: var(--bg-color);
   margin-bottom: 56px;
 }
 .savollaringiz-bormi p {

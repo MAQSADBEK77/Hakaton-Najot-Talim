@@ -1,9 +1,14 @@
 .header {
   padding-top: 17px;
+  background: var(--bg-color);
   padding-bottom: 17px;
 }
 .header .container {
   max-width: 1330px;
+}
+.header .navbar {
+  
+  background: var(--bg-color);
 }
 .logo {
   display: flex;

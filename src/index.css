@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
 :root {
+  --navbar-bg: #332942;
   --bg-color: #ffffff;
   --btn-color: #0fc36d;
   --btn-shadow: 0px 8px 32px 0px rgba(15, 195, 109, 0.32);
@@ -11,8 +12,21 @@
   --hero-bg: #f6f7ed;
   --play-market-bg: rgba(0, 0, 0, 1);
 }
+.dark {
+  --navbar-bg: rgb(12, 5, 74);
+  --bg-color: #4b4465;
+  --btn-color: #12c30f;
+  --btn-shadow: 0px 8px 32px 0px rgba(15, 195, 109, 0.32);
+  --text-color: #ffffff;
+  --text-color2: #bebebe;
+  --hero-bg: #0a0129;
+  --play-market-bg: rgb(0, 0, 1);
+}
 
 body {
+  transition: all 0.4s;
+  background-color: var(--bg-color);
+
   font-style: normal;
 }
 
@@ -150,7 +164,7 @@ img {
 .container {
   max-width: 1320px !important;
   margin: 0 auto;
-  padding: 0 20px ;
+  padding: 0 20px;
   font-family: "Inter", sans-serif;
 }
 a {
