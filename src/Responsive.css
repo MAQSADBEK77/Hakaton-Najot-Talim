@@ -16,3 +16,73 @@
     display: none;
   }
 }
+@media screen and (max-width: 1000px) {
+  .dash,
+  .navbar-left p {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 70px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ilova .hero-left {
+    text-align: center;
+  }
+  .ilova .hero-left p,
+  .ilova .hero-left h1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  .ilova .hero-links {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .hero h1 {
+    font-size: 40px !important;
+    line-height: 46px !important;
+  }
+  .mini-carts {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .mini-cart {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar .navbar-start {
+    min-width: 244px;
+  }
+  .navbar .greenFather {
+    display: none;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero-links {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .hero-right img {
+    display: none;
+  }
+  .raiting {
+    width: 375px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width:400px) {
+  .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .chat-btn {
+    bottom: 15px;
+    right: 15px;
+  }
+}

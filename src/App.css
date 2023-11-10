@@ -90,9 +90,8 @@
 }
 .mini-carts {
   transition: all 0.4s;
-
   background-color: var(--bg-color);
-
+  gap: 10px;
   display: flex;
   justify-content: space-between;
   margin-top: 56px;
