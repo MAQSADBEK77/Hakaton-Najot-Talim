@@ -66,7 +66,7 @@
     margin: 0 auto;
     justify-content: center;
   }
-  .hero-right img {
+  .hero-right {
     display: none;
   }
   .raiting {
@@ -75,15 +75,15 @@
   h2 {
     font-size: 30px !important;
   }
+  .chat-btn {
+    bottom: 15px;
+    right: 15px;
+  }
 }
 @media screen and (max-width:400px) {
   .container {
     padding-left: 10px !important;
     padding-right: 10px !important;
-  }
-  .chat-btn {
-    bottom: 15px;
-    right: 15px;
   }
 }
 @media screen and (max-width:1280px) {
