@@ -134,28 +134,28 @@ function Header() {
                   <summary>Xizmatlar</summary>
                   <ul>
                     <li>
-                      <Link to="/xizmatlar">Uylarni tozalash</Link>
+                      <a href="/xizmatlar">Uylarni tozalash</a>
                     </li>{" "}
                     <li>
-                      <Link to="/xizmatlar">Ofislarni tozalash</Link>
+                      <a href="/xizmatlar">Ofislarni tozalash</a>
                     </li>{" "}
                     <li>
-                      <Link to="/xizmatlar">Bog’larni tozalash</Link>
+                      <a href="/xizmatlar">Bog’larni tozalash</a>
                     </li>{" "}
                     <li>
-                      <Link to="/xizmatlar">Yashil maydonlarni tozalash</Link>
+                      <a href="/xizmatlar">Yashil maydonlarni tozalash</a>
                     </li>{" "}
                     <li>
-                      <Link to="/xizmatlar">Qurilish joylarini tozalash</Link>
+                      <a href="/xizmatlar">Qurilish joylarini tozalash</a>
                     </li>{" "}
                     <li>
-                      <Link to="/xizmatlar">Umumiy tozalash</Link>
+                      <a href="/xizmatlar">Umumiy tozalash</a>
                     </li>{" "}
                     <li>
-                      <Link to="/xizmatlar">Mebellarni tozalash</Link>
+                      <a href="/xizmatlar">Mebellarni tozalash</a>
                     </li>
                     <li>
-                      <Link to="/xizmatlar">Mebellarni tozalash</Link>
+                      <a href="/xizmatlar">Mebellarni tozalash</a>
                     </li>
                   </ul>
                 </details>
