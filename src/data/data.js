@@ -1,6 +1,4 @@
 import cart1 from "../../public/cart1.png";
-import cart2 from "../../public/cart2.png";
-console.log(cart2);
 export const carts = [
   {
     img: { cart1 },
@@ -65,7 +63,21 @@ export const xomiylar = [
     href: "#",
   },
   {
-    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    image: "https://kdb.uz/storage/cards/October2021/hNE9Tjbf0qf181qpgGah.jpg",
+    href: "#",
+  },
+  {
+    image: "https://www.royaltaxi.uz/brand_img.png",
+    href: "#",
+  },
+  {
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMc55lGDYSWl8XfGbXyNk1_rflliyLmBRmmA&usqp=CAU",
+    href: "#",
+  },
+  {
+    image:
+      "https://yt3.googleusercontent.com/Zyb4guoh4dLG3SCQ6myUAylfCfwk_RD30rLGZhtsFW-o2v30_j8CuNRYcjoekYXlH11q5YgMuw=s900-c-k-c0x00ffffff-no-rj",
     href: "#",
   },
   {
@@ -73,7 +85,7 @@ export const xomiylar = [
     href: "#",
   },
   {
-    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    image: "https://kdb.uz/storage/cards/October2021/hNE9Tjbf0qf181qpgGah.jpg",
     href: "#",
   },
   {
@@ -81,19 +93,8 @@ export const xomiylar = [
     href: "#",
   },
   {
-    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
-    href: "#",
-  },
-  {
-    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
-    href: "#",
-  },
-  {
-    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
-    href: "#",
-  },
-  {
-    image: "https://humocard.uz/bitrix/templates/main/img/card2.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMc55lGDYSWl8XfGbXyNk1_rflliyLmBRmmA&usqp=CAU",
     href: "#",
   },
 ];
