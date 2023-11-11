@@ -86,3 +86,14 @@
     right: 15px;
   }
 }
+@media screen and (max-width:1280px) {
+  .filter-navbar-btns {
+    display: none;
+  }
+  .filter-navbar .dropdown {
+    display: flex;
+  }
+  .icon-y {
+    display: none;
+  }
+}

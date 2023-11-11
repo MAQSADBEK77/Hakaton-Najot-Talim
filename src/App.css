@@ -311,3 +311,34 @@ footer {
   font-weight: 500;
   line-height: 24px; /* 150% */
 }
+.cart {
+  transition: all 0.4s;
+}
+.cart:hover {
+  transform: scale(105%);
+}
+.biz-haqimizda .hero {
+  padding: 104px 0 101px;
+}
+.hero .hero-link {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hero .hero-link p {
+  margin: 0 !important;
+}
+.hero .hero-link h3 {
+  color: var(--btn-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+}
+.hero-right {
+  width: 48%;
+}
+.hero-right iframe {
+  border-radius: 32px;
+  width: 100%;
+  height: 355px;
+}

@@ -1,6 +1,8 @@
 import BreadBrumps from "../components/BreadBrumps";
 import FilterNavBar from "../components/FilterNavBar";
 import TitleComponent from "../components/TitleComponent";
+import Carts from "../components/Carts";
+import { carts } from "../data/data";
 import "../css/Blog.css";
 function Blog() {
   return (
@@ -12,6 +14,9 @@ function Blog() {
         param="Biz sizning uyingiz, ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz."
       />
       <FilterNavBar />
+      <div className="container">
+        <Carts data={carts} />
+      </div>
     </div>
   );
 }
