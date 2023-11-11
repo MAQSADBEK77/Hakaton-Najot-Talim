@@ -72,6 +72,9 @@ function Header() {
                   </ul>
                 </details>
               </li>
+            <li>
+              <Link to="/">Uy</Link>
+            </li>
               <li>
                 <Link to="/blog">Blog</Link>
               </li>
@@ -157,6 +160,9 @@ function Header() {
                   </ul>
                 </details>
               </li>
+            <li>
+              <Link to="/">Uy</Link>
+            </li>
               <li>
                 <Link to="blog">Blog</Link>
               </li>

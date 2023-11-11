@@ -3,6 +3,7 @@
   margin-bottom: 56px;
 }
 .filter-navbar {
+  margin-top: 56px !important;
   background-color: var(--hero-bg);
   border-radius: 24px;
   display: flex;

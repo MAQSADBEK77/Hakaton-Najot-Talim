@@ -1,57 +1,59 @@
 import cart1 from "../../public/cart1.png";
+import cart2 from "../../public/cart2.png";
+console.log(cart2);
 export const carts = [
   {
     img: { cart1 },
-    title: "Tozalash xizmatlari",
+    title: "Uylarni tozalash",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 1,
   },
   {
     img: { cart1 },
-    title: "Tozalash xizmatlari",
+    title: "Ofislarni tozalash",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 2,
   },
   {
     img: { cart1 },
-    title: "Tozalash xizmatlari",
+    title: "Bog’larni tozalash",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 3,
   },
   {
     img: { cart1 },
-    title: "Tozalash xizmatlari",
+    title: "Yashil maydonlarni tozalash",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 4,
   },
   {
     img: { cart1 },
-    title: "Tozalash xizmatlari",
+    title: "Qurilish joylarini tozalash",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 5,
   },
   {
     img: { cart1 },
-    title: "Tozalash xizmatlari",
+    title: "Umumiy tozalash",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 6,
   },
   {
     img: { cart1 },
-    title: "Tozalash xizmatlari",
+    title: "Mebellarni tozalash",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 7,
   },
   {
     img: { cart1 },
-    title: "Tozalash xizmatlari",
+    title: "Mebellarni tozalash",
     param:
       "Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni taqdim etamiz.",
     id: 8,

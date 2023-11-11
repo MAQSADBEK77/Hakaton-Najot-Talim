@@ -39,8 +39,7 @@
 }
 .hero-right img {
   transition: all 0.4s;
-  transform: translateX(-70px);
 }
 .hero:hover .hero-right img {
-  transform: scale(106%) translateY(-3%) translateX(-70px);
+  transform: scale(106%) translateY(-3%);
 }
