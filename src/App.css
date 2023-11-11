@@ -26,7 +26,7 @@
   border-radius: 12px;
   background: var(--bg-color);
   outline: 1px solid var(--btn-color);
-  padding: 16px 20px;
+  padding: 15px 20px 17px;
   transition: all 0.4s;
 }
 .borderGreenBtn {
@@ -60,11 +60,9 @@
 .chat-btn:hover {
   transform: scale(110%);
 }
-
 .chat-btn:hover img {
   transform: scale(125%);
 }
-
 .title-component {
   display: flex;
   flex-direction: column;
@@ -131,9 +129,7 @@
 }
 .carousel {
   transition: all 0.4s;
-
   background-color: var(--bg-color);
-
   margin-top: 80px !important;
   margin-bottom: 168px !important;
   gap: 20px;
@@ -144,7 +140,6 @@
 }
 .carousel-item {
   transition: all 0.4s;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,7 +163,6 @@
   line-height: 26px; /* 144.444% */
   margin-top: 4px;
 }
-
 .carousel-item p {
   color: var(--text-color2);
   font-size: 14px;
@@ -221,9 +215,7 @@
 }
 .raiting {
   transition: all 0.4s;
-
   background-color: var(--bg-color);
-
   max-width: 620px;
 }
 .raiting-top img {
