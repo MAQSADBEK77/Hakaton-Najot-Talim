@@ -1,5 +1,6 @@
 .navbar {
   background: var(--navbar-bg);
+  transition: all .4s;
   padding: 10px 0;
 }
 .navbar .container {

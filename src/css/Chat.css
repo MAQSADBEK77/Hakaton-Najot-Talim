@@ -3,7 +3,9 @@
   margin-bottom: 90px;
 }
 .chat-bubble {
-    background-color: var(--text-color);
+  background-color: var(--bg-color);
+      transition: all .4s;
+
 }
 .form-chat {
   position: fixed;
